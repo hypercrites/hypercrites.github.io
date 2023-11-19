@@ -73,7 +73,7 @@ i, em {
 
 i[class*="fa-brands"] {
     color: var(--grau);
-    font-size: 28px;
+    font-size: 22px;
 }
 
 i[class*="fa-brands"]:hover {
