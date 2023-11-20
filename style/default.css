@@ -139,7 +139,7 @@ div.links {
 
 /* Text-Styling */
 p.handschrift {
-    font-size: 22px;
+    font-size: 26px;
     font-family: var(--handschrift);
     display: inline;
 }
