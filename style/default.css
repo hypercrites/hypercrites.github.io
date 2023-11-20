@@ -73,7 +73,7 @@ i, em {
 
 i[class*="fa-brands"] {
     color: var(--grau);
-    font-size: 22px;
+    font-size: 26px;
 }
 
 i[class*="fa-brands"]:hover {
@@ -128,7 +128,7 @@ div.tags {
 
 div.links {
     text-align: center;
-    word-spacing: 10px;
+    word-spacing: 8px;
 }
 
 
