@@ -79,6 +79,11 @@ i[class*="fa-brands"] {
 i[class*="fa-brands"]:hover {
     color: var(--grün);
     cursor: pointer;
+    font-size: 28px;
+    word-spacing: 6px;
+    margin: -2px;
+    padding-left: 1px;
+    padding-right: 1px;
 }
 
 
