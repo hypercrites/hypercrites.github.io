@@ -206,7 +206,7 @@ p.tag:hover {
 p.quote {
     background-color: #1a233280;
     backdrop-filter: blur(5px);
-    font-size: 21px;
+    font-size: 22px;
     font-family: var(--handschrift);
     border-left: 2px solid var(--grün);
     border-right: none;
