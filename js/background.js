@@ -238,7 +238,7 @@ function initCanvas(){
     can_h = parseInt(canvas.getAttribute('height'));
 }
 window.addEventListener('resize', function(e){
-    console.log('Window Resize...');
+    // console.log('Window Resize...');
     initCanvas();
 });
 
@@ -251,12 +251,12 @@ goMovie();
 
 // Mouse effect
 canvas.addEventListener('mouseenter', function(){
-    console.log('mouseenter');
+    // console.log('mouseenter');
     mouse_in = true;
     balls.push(mouse_ball);
 });
 canvas.addEventListener('mouseleave', function(){
-    console.log('mouseleave');
+    // console.log('mouseleave');
     mouse_in = false;
     var new_balls = [];
     Array.prototype.forEach.call(balls, function(b){
