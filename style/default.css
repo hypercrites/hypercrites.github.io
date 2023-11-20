@@ -44,6 +44,7 @@ img.avatar {
     display: inline-block;
     vertical-align: middle;
     border: 2px solid var(--grün);
+    background-color: var(--dunkelblau);
     border-radius: 100px;
     height: 80px;
     width: 80px;
