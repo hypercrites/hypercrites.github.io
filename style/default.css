@@ -122,7 +122,7 @@ div.content:hover {
 }
 
 div.header {
-    width: 310px;
+    width: 315px;
     padding-left: 10px;
 }
 
@@ -131,6 +131,7 @@ div.titel {
     float:right;
     margin-top: -10px;
     padding-top: 10px;
+    padding-left: 5px;
 }
 
 div.tags {
