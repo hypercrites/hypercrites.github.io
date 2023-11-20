@@ -204,7 +204,10 @@ p.tag:hover {
 }
 
 p.quote {
-    background-color: var(--hellblau);
+    background-color: #1a233280;
+    backdrop-filter: blur(5px);
+    font-size: 22px;
+    font-family: var(--handschrift);
     boder-left: 2px solid var(--grün);
     border-right: none;
     border-top: none;
@@ -215,15 +218,21 @@ p.quote {
     padding-bottom: 2px;
     margin: 5px;
     box-shadow: 1px 1px 5px 0px #0000005b;
+    display: inline;
 }
 
 p.quote:before {
     content: "ⓘ";
+    color: var(--grün);
+    font-size: 14px;
     width: 100%;
     height: 100%;
     text-align: right;
     display: block;
-    line-height: 100px;
+    line-height: 10px;
+    margin-left: -5px;
+    margin-bottom: -10px;
+    opacity: 0.8;
 }
 
 
