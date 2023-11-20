@@ -40,7 +40,7 @@ body {
     overflow: hidden;
 }
 
-img.foto {
+img.avatar {
     display: inline-block;
     vertical-align: middle;
     border: 2px solid var(--grün);
