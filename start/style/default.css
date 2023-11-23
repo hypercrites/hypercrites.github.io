@@ -121,6 +121,23 @@ i[class*="fa-brands"]:hover {
 
 
 /* Suchleiste */
+
+div.suchbox {
+    background: #1a233280;
+    backdrop-filter: blur(5px);
+    display: block;
+    margin-top: 150px;
+    margin-bottom: 0px;
+    position: fixed;
+    width: 350px;
+    min-width: 320px;
+    border: 1px solid var(--dunkelblau);
+    border-radius: 7px;
+    box-shadow: 1px 1px 5px 0px #0000005b;
+    padding: 15px;
+    animation: onload 0.8s;
+}
+
 input.suche {
     background: #1a233280;
     backdrop-filter: blur(5px);
@@ -133,8 +150,7 @@ input.suche {
     border-radius: 2px;
     outline: 0;
     box-shadow: 1px 1px 5px 0px #0000005b;
-    padding: 15px;
-    animation: onload 0.8s;
+    padding: 5px;
 }
 
 input.suche:hover, input.suche:active, input.suche:focus {
