@@ -205,6 +205,8 @@ input::placeholder {
     color: var(--grau);
     font-style: italic;
     text-align: center;
+    font-size: 13px;
+    letter-spacing: 2px;
 }
 
 /* Text-Styling */
