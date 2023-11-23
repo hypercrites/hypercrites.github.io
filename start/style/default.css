@@ -37,6 +37,7 @@ body {
     overflow: hidden;
 }
 
+/* FUNKTIONIERT NICHT FFS
 @media only screen and (max-width: 805px) {
     body {
         background-color: #FF0000;
@@ -51,6 +52,7 @@ body {
     width: 95%;
     }
 }
+*/
 
 hr {
     max-width: 95%;
@@ -279,8 +281,7 @@ input.suche:hover, input.suche:active, input.suche:focus {
 
 input::placeholder {
     color: var(--grau);
-    font-family: var(--leicht), Arial, Helvetica, sans-serif;
-    font-style: italic;
+    font-family: var(--kursiv), Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 12px;
     letter-spacing: 3px;
