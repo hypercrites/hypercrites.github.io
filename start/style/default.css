@@ -77,10 +77,11 @@ a {
 }
 
 a:hover, a:active {
-    color: var(--weiß);
+    /* color: var(--weiß);
     text-decoration-line: underline;
     text-decoration-color: var(--grün);  
-    text-decoration-style: wavy;  
+    text-decoration-style: wavy; */
+    animation: fade 0.5s;
 }
 
 /* Schriftarten-Stile */ 
@@ -175,9 +176,9 @@ div.bookmark {
     border: 1px solid var(--dunkelblau);
     border-radius: 7px;
     box-shadow: 1px 1px 5px 0px #0000005b;
-    animation: onload 1.0s;
     vertical-align: top;
     text-align: center;
+    animation: onload 1.0s;
 }
 
 div.bookmark:hover {
@@ -355,4 +356,9 @@ p.quote:before {
     0% { transform: scale(0.1); opacity: 0; filter: blur(10px); }
     50% { transform: scale(1.1); opacity: 0.5; filter: blur(5px); }
     100% { transform: scale(1); opacity: 1; filter: blur(0px); }
+}
+
+@keyframes fade {
+    0% { color: var(--grau); text-decoration-line: underline; text-decoration-color: var(--grün); text-decoration-style: solid; }
+    100& { color: var(--weiß); text-decoration-line: underline; text-decoration-color: var(--grün); text-decoration-style: wavy; }
 }
