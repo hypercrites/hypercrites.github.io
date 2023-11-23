@@ -173,7 +173,7 @@ div.suchbox:hover {
     border: 1px solid var(--highlight);
 }
 
-form.suchform {
+form#suchform {
     width: 100%
     padding: 5px;
 }
