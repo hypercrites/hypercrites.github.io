@@ -101,8 +101,8 @@ input.suche {
     backdrop-filter: blur(5px);
     color: var(--grün);
     display: block;
-    boder-top: none;
-    border: 1px solid var(--dunkelblau);
+    border-top: none;
+    border-bottom: 1px solid var(--dunkelblau);
     border-left: none;
     border-right: none;
     border-radius: 2px;
@@ -113,8 +113,8 @@ input.suche {
 }
 
 input.suche:hover, input.suche:active {
-    boder-top: none;
-    border: 1px solid var(--grün);
+    border-top: none;
+    border-bottom: 1px solid var(--grün);
     border-left: none;
     border-right: none;
     
