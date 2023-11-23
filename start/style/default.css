@@ -286,7 +286,7 @@ input::placeholder {
     text-align: center;
     font-size: 12px;
     letter-spacing: 3px;
-    text-shadow: 1px 1px 2px #000000;
+    text-shadow: 1px 1px 1px #000000;
 }
 
 /* Text-Styling */
