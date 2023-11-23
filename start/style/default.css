@@ -126,6 +126,34 @@ div.site {
     justify-content: center;
 }
 
+div.bookmarks {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    position: fixed;
+    width: 800px;
+    min-width: 310px;
+}
+
+div.bookmark {
+    display: inline;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: #1a233280;
+    backdrop-filter: blur(5px);
+    width: 300px;
+    border: 1px solid var(--dunkelblau);
+    border-radius: 7px;
+    box-shadow: 1px 1px 5px 0px #0000005b;
+    animation: onload 0.9s;
+}
+
+div.bookmark:hover {
+    border: 1px solid var(--highlight);
+}
+
 div.header {
     width: 315px;
     padding-left: 10px;
@@ -203,11 +231,11 @@ input.suche:hover, input.suche:active, input.suche:focus {
 
 input::placeholder {
     color: var(--grau);
-    font-family: var(--fett), Arial, Helvetica, sans-serif;
+    font-family: var(--leicht), Arial, Helvetica, sans-serif;
     font-style: italic;
     text-align: center;
-    font-size: 13px;
-    letter-spacing: 2px;
+    font-size: 12px;
+    letter-spacing: 3px;
 }
 
 /* Text-Styling */
