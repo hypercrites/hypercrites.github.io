@@ -60,8 +60,10 @@ a {
 }
 
 a:hover, a:active {
-    color: var(--grün);
+    color: var(--weiß);
     text-decoration-line: underline;
+    text-decoration-color: var(--grün);  
+    text-decoration-style: wavy;  
 }
 
 /* Schriftarten-Stile */ 
