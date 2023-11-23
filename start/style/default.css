@@ -76,12 +76,12 @@ a {
     text-decoration-line: none;
 }
 
-a:hover, a:active {
-    /* color: var(--weiß);
+a:hover {
+    color: var(--weiß);
     text-decoration-line: underline;
     text-decoration-color: var(--grün);  
-    text-decoration-style: wavy; */
-    animation: linkfade 0.5s;
+    text-decoration-style: wavy;
+    animation: onload 0.5s;
 }
 
 /* Schriftarten-Stile */ 
