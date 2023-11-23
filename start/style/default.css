@@ -215,8 +215,9 @@ div.suchbox {
     display: block;
     margin-top: 150px;
     margin-bottom: 0px;
+    margin-right: -2px;
     position: fixed;
-    width: 800px;
+    width: 802px;
     min-width: 310px;
     border: 1px solid var(--dunkelblau);
     border-radius: 7px;
