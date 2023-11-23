@@ -359,6 +359,6 @@ p.quote:before {
 }
 
 @keyframes fade {
-    0% { color: var(--grau); text-decoration-line: underline; text-decoration-color: var(--grün); text-decoration-style: solid; }
-    100% { color: var(--weiß); text-decoration-line: underline; text-decoration-color: var(--grün); text-decoration-style: wavy; }
+    0% { color: var(--grau); }
+    100% { color: var(--weiß); }
 }
