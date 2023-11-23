@@ -159,8 +159,9 @@ div.suchbox {
     margin-top: 150px;
     margin-bottom: 0px;
     position: fixed;
-    width: 350px;
-    min-width: 320px;
+    width: 800px;
+    min-width: 310px;
+    
     border: 1px solid var(--dunkelblau);
     border-radius: 7px;
     box-shadow: 1px 1px 5px 0px #0000005b;
