@@ -138,6 +138,10 @@ div.suchbox {
     animation: onload 0.8s;
 }
 
+div.suchbox:hover {
+    border: 1px solid var(--grün);
+}
+
 input.suche {
     background: #1a233280;
     backdrop-filter: blur(5px);
@@ -164,26 +168,6 @@ input.suche:hover, input.suche:active, input.suche:focus {
 div.site {
     display: flex;
     justify-content: center;
-}
-
-div.content {
-    background: #1a233280;
-    backdrop-filter: blur(5px);
-    display: block;
-    margin-top: 150px;
-    margin-bottom: 0px;
-    position: fixed;
-    width: 350px;
-    min-width: 320px;
-    border: 1px solid var(--dunkelblau);
-    border-radius: 7px;
-    box-shadow: 1px 1px 5px 0px #0000005b;
-    padding: 15px;
-    animation: onload 0.8s;
-}
-
-div.content:hover {
-    border: 1px solid var(--grün);
 }
 
 div.header {
