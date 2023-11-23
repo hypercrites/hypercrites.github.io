@@ -42,7 +42,10 @@ body {
     margin-top: 100px;
     width: 400px;
     }
-    
+
+    div.suchbox {
+    width: 400px;
+    }
 }
 
 hr {
