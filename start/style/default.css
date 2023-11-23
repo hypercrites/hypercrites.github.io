@@ -38,6 +38,10 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+    body {
+        background-color: #FFFFFF;
+    }
+    
     div.bookmarks {
     margin-top: 100px;
     width: 400px;
