@@ -170,7 +170,7 @@ div.suchbox {
 }
 
 div.suchbox:hover {
-    border: 1px solid var(--grün);
+    border: 1px solid var(--highlight);
 }
 
 input.suche {
