@@ -161,7 +161,6 @@ div.suchbox {
     position: fixed;
     width: 800px;
     min-width: 310px;
-    
     border: 1px solid var(--dunkelblau);
     border-radius: 7px;
     box-shadow: 1px 1px 5px 0px #0000005b;
@@ -184,7 +183,7 @@ input.suche {
     border-right: none;
     border-radius: 2px;
     outline: 0;
-    box-shadow: 1px 1px 5px 0px #0000005b;
+    box-shadow: none;
     width: 100%;
     padding: 5px;
 }
