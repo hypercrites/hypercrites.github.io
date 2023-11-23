@@ -81,7 +81,7 @@ a:hover {
     text-decoration-line: underline;
     text-decoration-color: var(--grün);  
     text-decoration-style: wavy;
-    animation: fade 0.5s;
+    animation: fade 0.8s;
 }
 
 /* Schriftarten-Stile */ 
