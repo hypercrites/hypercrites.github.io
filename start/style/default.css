@@ -81,7 +81,7 @@ a:hover {
     text-decoration-line: underline;
     text-decoration-color: var(--grün);  
     text-decoration-style: wavy;
-    animation: onload 0.5s;
+    animation: fade 0.5s;
 }
 
 /* Schriftarten-Stile */ 
@@ -358,7 +358,7 @@ p.quote:before {
     100% { transform: scale(1); opacity: 1; filter: blur(0px); }
 }
 
-@keyframes linkfade {
+@keyframes fade {
     0% { color: var(--grau); text-decoration-line: underline; text-decoration-color: var(--grün); text-decoration-style: solid; }
     100% { color: var(--weiß); text-decoration-line: underline; text-decoration-color: var(--grün); text-decoration-style: wavy; }
 }
