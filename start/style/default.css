@@ -154,7 +154,7 @@ div.bookmark {
     padding: 5px;
     background: #1a233280;
     backdrop-filter: blur(5px);
-    width: 185px;
+    width: 192px;
     border: 1px solid var(--dunkelblau);
     border-radius: 7px;
     box-shadow: 1px 1px 5px 0px #0000005b;
@@ -170,7 +170,7 @@ div.bookmark:first-child {
 }
 
 div.bookmark:last-child {
-    margin-right: -15px;
+    margin-right: -20px;
 }
 
 
