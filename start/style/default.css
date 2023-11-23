@@ -165,6 +165,15 @@ div.bookmark:hover {
     border: 1px solid var(--highlight);
 }
 
+div.bookmark:first-child {
+    margin-left: -15px;
+}
+
+div.bookmark:last-child {
+    margin-right: -15px;
+}
+
+
 div.header {
     background-color: #11192780;
     color: var(--weiß);
