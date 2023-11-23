@@ -167,8 +167,10 @@ div.bookmark:hover {
 }
 
 div.header {
-    width: 315px;
-    padding-left: 10px;
+    background-color: var(--dunkelblau);
+    color: var(--weiß);
+    font-family: var(--fett);
+    text-align: center;
 }
 
 div.titel {
