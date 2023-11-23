@@ -42,13 +42,13 @@ body {
         background-color: #FF0000;
     }
     
-    div.bookmarks {
+    .bookmarks {
     margin-top: 100px;
     width: 400px;
     max-width: 800px;
     }
 
-    div.suchbox {
+    .suchbox {
     width: 400px;
     max-width: 800px;
     }
