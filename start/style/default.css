@@ -105,7 +105,8 @@ input.suche {
     border: 1px solid var(--dunkelblau);
     border-left: none;
     border-right: none;
-    border-radius: 7px;
+    border-radius: 2px;
+    outline: 0;
     box-shadow: 1px 1px 5px 0px #0000005b;
     padding: 15px;
     animation: onload 0.8s;
