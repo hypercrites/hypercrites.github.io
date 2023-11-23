@@ -1,4 +1,4 @@
 ## Hi there!
 
-> ![INFO]
+> ![NOTE]
 > A tiny little startpage for my browsers.
