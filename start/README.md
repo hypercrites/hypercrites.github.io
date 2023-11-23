@@ -1,4 +1,4 @@
-## Hi there!
+# Hi there!
 
-> ![NOTE]
-> A tiny little startpage for my browsers.
+> [!NOTE]
+> A tiny litte startpage in `HTML` and `CSS` for my needs.
