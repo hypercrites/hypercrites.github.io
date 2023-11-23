@@ -95,6 +95,28 @@ i[class*="fa-brands"]:hover {
 }
 
 
+/* Suchleiste */
+input.suche {
+    background: #1a233280;
+    backdrop-filter: blur(5px);
+    display: block;
+    boder-top: none;
+    border: 1px solid var(--dunkelblau);
+    border-left: none;
+    border-right: none;
+    border-radius: 7px;
+    box-shadow: 1px 1px 5px 0px #0000005b;
+    padding: 15px;
+    animation: onload 0.8s;
+}
+
+input.suche:hover, input.suche:active {
+    boder-top: none;
+    border: 1px solid var(--grün);
+    border-left: none;
+    border-right: none;
+    
+
 /* Container-Spezifische Stile */
 div.site {
     display: flex;
