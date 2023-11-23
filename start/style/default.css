@@ -204,7 +204,7 @@ input.suche:hover, input.suche:active, input.suche:focus {
 input::placeholder {
     color: var(--grau);
     font-style: italic;
-    animation: onload 1.0s;
+    animation: fadein 1.0s;
 }
 
 /* Text-Styling */
