@@ -204,7 +204,7 @@ input.suche:hover, input.suche:active, input.suche:focus {
 input::placeholder {
     color: var(--grau);
     font-style: italic;
-    opacity: 0.3;
+    animation: onload 1.0s;
 }
 
 /* Text-Styling */
@@ -275,4 +275,9 @@ p.quote:before {
     0% { transform: scale(0.1); opacity: 0; filter: blur(10px); }
     50% { transform: scale(1.1); opacity: 0.5; filter: blur(5px); }
     100% { transform: scale(1); opacity: 1; filter: blur(0px); }
+}
+
+@keyframes fadein {
+    0% { opacity: 0; }
+    100% { opacity: 0.3 }
 }
