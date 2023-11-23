@@ -112,7 +112,7 @@ input.suche {
     animation: onload 0.8s;
 }
 
-input.suche:hover, input.suche:active {
+input.suche:hover, input.suche:active, input.suche:focus {
     border-top: none;
     border-bottom: 1px solid var(--grün);
     border-left: none;
