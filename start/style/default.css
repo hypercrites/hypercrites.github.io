@@ -168,9 +168,10 @@ div.bookmark:hover {
 div.header {
     background-color: #11192780;
     color: var(--weiß);
+    margin-top: -5px;
     margin-left: -5px;
     margin-right: -5px;
-    border: 1px solid var(--highlight);
+    border: none;
     border-radius: 7px 7px 0px 0px;
     font-family: var(--fett);
     text-align: center;
