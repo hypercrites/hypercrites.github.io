@@ -1,7 +1,5 @@
 /* Meine Schriftarten */
 @import url(bariol-font.css);
-@import url(handschrift-font.css);
-@import url(webfonts/fontawesome-all.min.css);
 
 
 /* Allgemeines Aussehen der Seite, 
@@ -19,7 +17,6 @@ das Farbschema habe ich mir von hackthebox gemopst.
     --leicht: bariollight, Arial, Helvetica, sans-serif;
     --fett: bariolbold, Arial, Helvetica, sans-serif;
     --kursiv: bariolitalic, Arial, Helvetica, sans-serif;
-    --handschrift: Meine Handschrift, Arial, Helvetica, sans-serif;
     --titelschatten: 0px 1px 0px #609100, 0px 2px 0px #609100, 0px 3px 0px #609100, 0px 4px 0px #609100, 0px 5px 4px #000000;
     
 }
@@ -38,19 +35,6 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     overflow: hidden;
-}
-
-img.avatar {
-    display: inline-block;
-    vertical-align: middle;
-    border: 2px solid var(--grün);
-    background-color: var(--dunkelblau);
-    border-radius: 100px;
-    height: 70px;
-    width: 70px;
-    padding: 6px;
-    object-fit: cover;
-    box-shadow: 1px 1px 5px 0px #0000005b;
 }
 
 hr {
@@ -79,6 +63,47 @@ i, em {
     font-family: var(--kursiv);
 }
 
+p.titel {
+    font-size: 22px;
+    font-family: var(--fett);
+    display: inline-block;
+    vertical-align: middle;
+} 
+
+p.dreideh {
+    color: var(--grün);
+    font-family: var(--fett);
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    text-shadow: var(--titelschatten);
+}
+
+p.kursiv {
+    color: var(--lila);
+    font-style: italic;
+    font-weight: bold;
+    display: inline;
+    text-shadow: var(--textschatten);
+}
+
+p.fett {
+    font-family: var(--handschrift);
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: inline;
+}
+
+p.unterstrichen {
+    text-decoration: underline var(--grün);
+    display: inline;
+}
+
+
+/* Icon-Stil */
 i[class*="fa-brands"] {
     color: var(--grau);
     font-size: 26px;
@@ -174,45 +199,6 @@ div.links {
 p.handschrift {
     font-size: 26px;
     font-family: var(--handschrift);
-    display: inline;
-}
-
-p.titel {
-    font-size: 22px;
-    font-family: var(--fett);
-    display: inline-block;
-    vertical-align: middle;
-} 
-
-p.dreideh {
-    color: var(--grün);
-    font-family: var(--fett);
-    font-size: 32px;
-    font-weight: bold;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    display: inline-block;
-    vertical-align: middle;
-    text-shadow: var(--titelschatten);
-}
-
-p.kursiv {
-    color: var(--lila);
-    font-style: italic;
-    font-weight: bold;
-    display: inline;
-    text-shadow: var(--textschatten);
-}
-
-p.fett {
-    font-family: var(--handschrift);
-    font-weight: bold;
-    letter-spacing: 1px;
-    display: inline;
-}
-
-p.unterstrichen {
-    text-decoration: underline var(--grün);
     display: inline;
 }
 
