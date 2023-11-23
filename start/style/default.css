@@ -201,6 +201,9 @@ input.suche:hover, input.suche:active, input.suche:focus {
     border-right: none;
 }
 
+input::placeholder {
+    color: var(--grau);
+    font-style: italic;
 
 /* Text-Styling */
 p.handschrift {
