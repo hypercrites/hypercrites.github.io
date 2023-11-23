@@ -159,6 +159,8 @@ div.bookmark {
     border-radius: 7px;
     box-shadow: 1px 1px 5px 0px #0000005b;
     animation: onload 1.0s;
+    vertical-align: top;
+    text-align: center;
 }
 
 div.bookmark:hover {
