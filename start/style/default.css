@@ -265,7 +265,7 @@ input::placeholder {
 }
 
 /* Mobilgedöns */
-@media all and (max-width: 810px) {
+@media all and (max-width: 640px) {
     body {
         background-color: #FF0000;
         overflow: scroll;
