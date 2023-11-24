@@ -7,12 +7,19 @@ das Farbschema habe ich mir von hackthebox gemopst.
 */
 :root {
     --weiß: #eceff4;
+    --weißtr: #eceff480;
     --grau: #a4b1cd;
+    --grautr: #a4b1cd80;
     --blau: #141d2b;
+    --blautr: #141d2b80;
     --hellblau: #1a2332;
+    --hellblautr: #1a233280;
     --dunkelblau: #111927;
+    --dunkelblautr: #11192780;
     --highlight: #212a39;
+    --highlighttr: #212a3980;
     --grün: #9fef00;
+    --grüntr: #9fef0080;
     --normal: bariolregular, Arial, Helvetica, sans-serif;
     --leicht: bariollight, Arial, Helvetica, sans-serif;
     --fett: bariolbold, Arial, Helvetica, sans-serif;
@@ -101,7 +108,7 @@ a:hover {
 
 /* Schriftarten-Stile */ 
 b, strong {
-    font-family: var(--handschrift);
+    font-family: var(--fett);
 }
 
 i, em {
@@ -148,23 +155,6 @@ p.unterstrichen {
 }
 
 
-/* Icon-Stil */
-i[class*="fa-brands"] {
-    color: var(--grau);
-    font-size: 26px;
-}
-
-i[class*="fa-brands"]:hover {
-    color: var(--grün);
-    cursor: pointer;
-    font-size: 28px;
-    word-spacing: 6px;
-    margin: -2px;
-    padding-left: 1px;
-    padding-right: 1px;
-}
-
-
 /* Container-Spezifische Stile */
 div.site {
     display: flex;
@@ -185,7 +175,7 @@ div.bookmark {
     margin-top: 5px;
     margin-bottom: 0px;
     padding: 5px;
-    background: #1a233280;
+    background: var(--hellblautr);
     backdrop-filter: blur(5px);
     width: 192px;
     border: 1px solid var(--dunkelblau);
@@ -208,9 +198,8 @@ div.bookmark:last-child {
     margin-right: -20px;
 }
 
-
 div.header {
-    background-color: #11192780;
+    background-color: var(--dunkelblautr);
     color: var(--weiß);
     margin-top: -5px;
     margin-bottom: -5px;
@@ -247,7 +236,7 @@ div.links {
 
 /* Suchleiste */
 div.suchbox {
-    background: #1a233280;
+    background: var(--hellblautr);
     backdrop-filter: blur(5px);
     display: block;
     margin-top: 150px;
@@ -273,7 +262,7 @@ form#suchform {
 }
 
 input.suche {
-    background: #1a233280;
+    background: var(--hellblautr);
     backdrop-filter: blur(5px);
     color: var(--grün);
     font-size: 20px;
@@ -305,68 +294,6 @@ input::placeholder {
     font-size: 12px;
     letter-spacing: 3px;
     text-shadow: 1px 1px 1px #000000;
-}
-
-/* Text-Styling */
-p.handschrift {
-    font-size: 26px;
-    font-family: var(--handschrift);
-    display: inline;
-}
-
-p.tag {
-    color: var(--grau);
-    background-color: var(--dunkelblau);
-    border: 1px solid var(--grau);
-    font-size: 14px;
-    font-family: var(--leicht);
-    border-radius: 15px;
-    margin-left: 2px;
-    margin-right: 2px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 0px;
-    padding-bottom: 2px;
-    display: inline;
-}
-
-p.tag:hover {
-    color: var(--weiß);
-    border: 1px solid var(--weiß);
-    cursor: default;
-}
-
-p.quote {
-    background-color: #1a233280;
-    backdrop-filter: blur(5px);
-    font-size: 22px;
-    font-family: var(--handschrift);
-    border-left: 2px solid var(--grün);
-    border-right: none;
-    border-top: none;
-    border-bottom: none;
-    border-radius: 2px;
-    padding-left: 10px;
-    padding-right: 2px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    margin: 5px;
-    box-shadow: 1px 1px 5px 0px #0000005b;
-}
-
-p.quote:before {
-    content: "ⓘ";
-    color: var(--grün);
-    font-size: 15px;
-    width: 100%;
-    height: 100%;
-    text-align: right;
-    display: block;
-    line-height: 10px;
-    margin-top: 5px;
-    margin-bottom: -10px;
-    margin-left: -5px;
-    opacity: 0.8;
 }
 
 
