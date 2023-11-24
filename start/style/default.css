@@ -40,17 +40,32 @@ body {
 @media only screen and (max-width: 805px) {
     body {
         background-color: #FF0000;
+        overflow: scroll;
     }
     
     .bookmarks {
-    margin-top: 100px;
-    width: 95%;
+        margin-top: 50px;
+        width: 95%;
+    }
+
+    .bookmark {
+        display: block;
+    }
+
+    .bookmark:first-child {
+        margin-left: 0px;
+    }
+
+    .bookmark:last-child {
+        margin-right: 0px;
     }
 
     .suchbox {
-    width: 100%;
-    position: sticky;
-    top: 0;
+        margin-top: 0px;
+        padding: 5px;
+        width: 100%;
+        position: sticky;
+        top: 0;
     }
 }
 
