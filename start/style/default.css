@@ -267,8 +267,12 @@ input::placeholder {
 /* Mobilgedöns */
 @media all and (max-width: 640px) {
     body {
-        background-color: #FF0000;
         overflow: scroll;
+    }
+
+    canvas { 
+        opacity: 0;
+        visibility: hidden;
     }
 
     div.side {
