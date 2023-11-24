@@ -68,6 +68,7 @@ a {
 
 a:hover {
     color: var(--weiß);
+    font-family: var(--fett), Arial, Helvetica, sans-serif;
     text-decoration-line: underline;
     text-decoration-color: var(--grün);  
     text-decoration-style: wavy;
