@@ -64,6 +64,7 @@ hr {
 a {
     color: var(--grau);
     text-decoration-line: none;
+    display: block;
 }
 
 a:hover {
