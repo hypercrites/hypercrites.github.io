@@ -271,25 +271,25 @@ input::placeholder {
         overflow: scroll;
     }
     
-    .bookmarks {
+    div.bookmarks {
         position: static;
         margin-top: 50px;
         width: 95%;
     }
 
-    .bookmark {
+    div.bookmark {
         display: block;
     }
 
-    .bookmark:first-child {
+    div.bookmark:first-child {
         margin-left: 0px;
     }
 
-    .bookmark:last-child {
+    div.bookmark:last-child {
         margin-right: 0px;
     }
 
-    .suchbox {
+    div.suchbox {
         margin-top: 0px;
         padding: 5px;
         width: 100%;
