@@ -44,39 +44,6 @@ body {
     overflow: hidden;
 }
 
-@media all and (max-width: 640px) {
-    body {
-        background-color: #FF0000;
-        overflow: scroll;
-    }
-    
-    .bookmarks {
-        position: static;
-        margin-top: 50px;
-        width: 95%;
-    }
-
-    .bookmark {
-        display: block;
-    }
-
-    .bookmark:first-child {
-        margin-left: 0px;
-    }
-
-    .bookmark:last-child {
-        margin-right: 0px;
-    }
-
-    .suchbox {
-        margin-top: 0px;
-        padding: 5px;
-        width: 100%;
-        position: sticky;
-        top: 0;
-    }
-}
-
 hr {
     max-width: 95%;
     border-top: 1px dashed var(--grün);
@@ -295,6 +262,40 @@ input::placeholder {
     font-size: 12px;
     letter-spacing: 3px;
     text-shadow: 1px 1px 1px #000000;
+}
+
+/* Mobilgedöns */
+@media all and (max-width: 640px) {
+    body {
+        background-color: #FF0000;
+        overflow: scroll;
+    }
+    
+    .bookmarks {
+        position: static;
+        margin-top: 50px;
+        width: 95%;
+    }
+
+    .bookmark {
+        display: block;
+    }
+
+    .bookmark:first-child {
+        margin-left: 0px;
+    }
+
+    .bookmark:last-child {
+        margin-right: 0px;
+    }
+
+    .suchbox {
+        margin-top: 0px;
+        padding: 5px;
+        width: 100%;
+        position: sticky;
+        top: 0;
+    }
 }
 
 
