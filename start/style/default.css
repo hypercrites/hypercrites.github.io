@@ -253,7 +253,8 @@ div.suchbox:hover {
 }
 
 form#suchform {
-    margin-left: -9px;
+    margin-left: -5px;
+    margin-right: -5px;
 }
 
 input.suche {
@@ -269,7 +270,9 @@ input.suche {
     border-radius: 0;
     outline: 0;
     box-shadow: none;
-    width: 100%;
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
     padding: 5px;
 }
 
