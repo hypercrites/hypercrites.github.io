@@ -51,6 +51,7 @@ body {
     }
     
     .bookmarks {
+        position: static;
         margin-top: 50px;
         width: 95%;
     }
