@@ -269,6 +269,8 @@ input::placeholder {
 /* Mobilgedöns */
 @media all and (max-width: 810px) {
     body {
+        background-image: url('img/background.png');
+        background-repeat: repeat;
         overflow: scroll;
     }
 
