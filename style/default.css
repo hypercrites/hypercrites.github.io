@@ -276,11 +276,11 @@ p.quote:before {
     }
 
     i[class*="fa-brands"] {
-        font-size: 40px;
+        font-size: 36px;
     }
     
     i[class*="fa-brands"]:hover {
-        font-size: 44px;
+        font-size: 40px;
         margin: -4px;
         padding-left: 2px;
         padding-right: 2px;
