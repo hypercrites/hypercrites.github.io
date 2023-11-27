@@ -272,7 +272,7 @@ input::placeholder {
         background-image: url('../img/background.png');
         background-repeat: repeat;
         overflow: scroll;
-        line-height: 28px;
+        line-height: 30px;
     }
 
     canvas { 
@@ -296,6 +296,7 @@ input::placeholder {
 
     div.bookmark {
         display: block;
+        margin-bottom: 15px;
         width: 100%;
         font-size: 28px;
     }
