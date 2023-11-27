@@ -247,6 +247,31 @@ p.quote:before {
     opacity: 0.8;
 }
 
+/* Mobilgedöns */
+@media all and (max-width: 810px) {
+    body {
+        background-image: url('../img/background.png');
+        background-repeat: repeat;
+        overflow: scroll;
+    }
+
+    canvas { 
+        opacity: 0;
+        visibility: hidden;
+        width: 1px;
+        height: 1px;
+    }
+
+    div.site {
+        display: block;
+    }
+
+    div.content {
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
 
 /* Animationen */
 @keyframes onload {
