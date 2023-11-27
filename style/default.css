@@ -268,7 +268,8 @@ p.quote:before {
 
     div.content {
         margin-top: 10px;
-        width: 100%;
+        width: 95%;
+        border: 1px solid var(--grün);
     }
 }
 
