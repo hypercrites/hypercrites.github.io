@@ -203,6 +203,29 @@ div.links {
     word-spacing: 8px;
 }
 
+/* Wetter */
+div.wetter {
+    background: var(--hellblautr);
+    backdrop-filter: blur(5px);
+    display: block;
+    margin-top: 120px;
+    margin-bottom: 0px;
+    margin-right: -2px;
+    position: fixed;
+    width: 802px;
+    min-width: 310px;
+    border: 1px solid var(--dunkelblau);
+    border-radius: 7px;
+    box-shadow: 1px 1px 5px 0px #0000005b;
+    padding: 15px;
+    animation: onload 0.8s;
+}
+
+iframe.wetter {
+    color: var(--weiß);
+    font-size: 22px;
+    border: none;
+}
 
 /* Suchleiste */
 div.suchbox {
@@ -283,6 +306,12 @@ input::placeholder {
 
     div.side {
         display: block;
+    }
+
+    div.wetter {
+        width: 0px;
+        height: 0px;
+        opacity: 0px;
     }
     
     div.bookmarks {
