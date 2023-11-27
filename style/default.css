@@ -271,6 +271,7 @@ p.quote:before {
         margin-left: 5px;
         padding-right: 5px;
         width: 95%;
+        min-width: 320px;
         border: 1px solid var(--grün);
     }
 }
