@@ -276,10 +276,13 @@ input::placeholder {
     }
 
     canvas { 
+        /*
         opacity: 0;
         visibility: hidden;
         width: 1px;
         height: 1px;
+        */
+        overflow: hidden;
     }
 
     div.side {
