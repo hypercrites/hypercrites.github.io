@@ -249,6 +249,7 @@ p.quote:before {
 
 /* Mobilgedöns */
 @media all and (max-width: 750px) {
+    /*
     body {
         background-image: url('../img/background.png');
         background-repeat: repeat;
@@ -261,6 +262,7 @@ p.quote:before {
         width: 1px;
         height: 1px;
     }
+    */
 
     div.site {
         display: block;
