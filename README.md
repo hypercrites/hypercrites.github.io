@@ -1,9 +1,12 @@
 # hypercrites.github.io
-Just a little frontpage of my social media links, you can find the canvas [here](https://codepen.io/jkiss/pen/OVEeqK).
 
-Avatar by [Ching Yeh](https://www.artstation.com/chingyeh).
+> Just a little frontpage of my social media links.
 
-<!-- https://www.pinterest.at/pin/541909767658924395/ 
-     https://www.artstation.com/chingyeh
-     srcset
--->
+![preview](https://hypercrites.github.io/img/preview.png)
+
+[Here](https://hypercrites.github.io/) is a live preview.
+
+> [!NOTE]
+> Avatar by [Ching Yeh](https://www.artstation.com/chingyeh)
+> 
+> Canvas from [here](https://codepen.io/jkiss/pen/OVEeqK)
