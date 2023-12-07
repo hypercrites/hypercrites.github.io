@@ -10,3 +10,6 @@
 > Avatar by [Ching Yeh](https://www.artstation.com/chingyeh)
 > 
 > Canvas from [here](https://codepen.io/jkiss/pen/OVEeqK)
+
+
+<!-- für später: https://stackoverflow.com/questions/45849699/is-it-possible-to-fade-out-the-end-of-a-text-line-in-css -->
